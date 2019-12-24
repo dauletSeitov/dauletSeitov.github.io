@@ -1,8 +1,7 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,120 +10,149 @@
     <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- navigation bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-      <!-- contents of navigation -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
-            <!-- add the toggle button with 3 horizontal lines/bars -->
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Seilov Bagdaulet</a>
-          <a class="navbar-brand" href="mailto:seilov.skynet@gmail.com">seilov.skynet@gmail.com</a>
+        <div class="container">
+            <!-- contents of navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
+                    <!-- add the toggle button with 3 horizontal lines/bars -->
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Seilov Bagdaulet</a>
+                <a class="navbar-brand" href="mailto:seilov.skynet@gmail.com">seilov.skynet@gmail.com</a>
+            </div>
+            <div class="navbar-collapse collapse" id="mynavbar">
+                <!-- add items to the nav bar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#now">Now</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="navbar-collapse collapse" id="mynavbar">
-          <!-- add items to the nav bar -->
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#now">Now</a></li>
-            <li><a href="#contact-me">Contact</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
     <div class="container">
-      <div class="row text-center">
-        <!-- header text -->
-        <div class="col-xs-12">
-          <!-- name title -->
-          <h1>Seilov Bagdaulet</h1>
-          <h4>The computer guy</h4>
-          <hr>
+        <div class="row text-center">
+            <!-- header text -->
+            <div class="col-xs-12">
+                <!-- name title -->
+                <h1>Seilov Bagdaulet</h1>
+                <h4>The computer guy</h4>
+                <hr>
+            </div>
+            <!-- social icons -->
+            <div class="col-xs-12">
+                <a class="btn btn-default" href="https://www.hackerrank.com/seilov_skynet" target="_blank">HackerRank</a>
+                <a class="btn btn-default" href="https://www.linkedin.com/in/seilov-bagdaulet-623277166/" target="_blank">LinkedIn</a>
+                <a class="btn btn-default" href="https://github.com/dauletSeitov" target="_blank">Github</a>
+                <a class="btn btn-default" href="https://www.facebook.com/baha.seil" target="_blank">Facebook</a>
+                <a class="btn btn-default" href="https://www.coursera.org/user/5e8fbb6ef7d2223517b748098c4ab657" target="_blank">Coursera</a>
+            </div>
+            <!-- inspirational quote -->
+            <div class="col-xs-12">
+                <blockquote class="blockquote-reverse my-quote">
+                    <p>Hi, My name is Bagdaulet, i am back-end developer from KazHackStan.</p>
+                    <!--<footer>William Shakespeare in <cite title="As You Like It">As You Like It</cite></footer>-->
+                </blockquote>
+            </div>
         </div>
-        <!-- social icons -->
-        <div class="col-xs-12">
-          <a class="btn btn-default" href="https://www.hackerrank.com/seilov_skynet" target="_blank">HackerRank</a>
-          <a class="btn btn-default" href="https://www.linkedin.com/in/seilov-bagdaulet-623277166/" target="_blank">LinkedIn</a>
-          <a class="btn btn-default" href="https://github.com/dauletSeitov" target="_blank">Github</a>
-          <a class="btn btn-default" href="https://www.facebook.com/baha.seil" target="_blank">Facebook</a>
-		  <a class="btn btn-default" href="https://www.coursera.org/user/5e8fbb6ef7d2223517b748098c4ab657" target="_blank">Coursera</a>
+        <div class="row text-center" id="about-me">
+            <!-- about me -->
+            <div class="col-xs-6">
+                <!-- About me - description -->
+                <p class="h1">My work.</p>
+                <p class="h3">Currently i am working on meme sharing web resource and on my master diploma.</p>
+                <p class="h1">Skills.</p>
+                <p class="h3">spring, docker, sql, jenkins.</p>
+            </div>
+            <div class="col-xs-6">
+                <!-- About me - photo -->
+                <img class="img-rounded" height="250px" alt="Daulet's face" src="1.jpg">
+            </div>
         </div>
-        <!-- inspirational quote -->
-        <div class="col-xs-12">
-          <blockquote class="blockquote-reverse my-quote">
-            <p>Hi, My name is Bagdaulet, i am back-end developer from KazHackStan.</p>
-            <!--<footer>William Shakespeare in <cite title="As You Like It">As You Like It</cite></footer>-->
-          </blockquote>
+        <div class="row" id="now"  style="height: 500px">
+            <!-- my "now" page -->
+            <div class="col-xs-4">
+                <h2>What I'm doing now:</h2>
+
+                <ul>
+                    <li>Currently i am in the Almaty working as a software engineer on trading platform and finishing my dissertation for master degree. My time is unequally divided among the following projects:</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-xs-4">
+
+                <h2>Self education:</h2>
+                <ul>
+                    <li>Learing english, now i have IELTS score 5</li>
+                    <li>Learning Android development on Kotlin</li>
+                    <li>Learning IOS development on swift</li>
+                    <li>Solving problems on HackerRank</li>
+                    <li>Preparing to OSJP certification</li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <h2>My hobby:</h2>
+                <ul>
+                    <li>Writing fun programs like worm game on C#</li>
+                    <li>Developing fun stufs on micro controllers Arduino Raspbery pi</li>
+                    <li>Rearding literature books</li>
+                    <li>Motorsycles</li>
+                    <li>Fishing</li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="row text-center" id="about-me">
-        <!-- about me -->
-        <div class="col-xs-6"> <!-- About me - description -->
-          <p class="h1">My work.</p>
-          <p class="h3">Currently i am working on meme sharing web resource and on my master diploma.</p>
-          <p class="h1">Skills.</p>
-          <p class="h3">spring, docker, sql, jenkins.</p>
+
+        <div class="row">
+            <div class="col-xs-4">
+                <video class="col-xs-12" height="200" width="400" controls>
+                    <source src="3.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg"> Your browser does not support HTML5 video.
+                </video>
+                <p class="col-xs-12 text-center">Snake game</p>
+            </div>
+            <div class="col-xs-4">
+                <video class="col-xs-12" height="200" width="400" controls>
+                    <source src="2.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg"> Your browser does not support HTML5 video.
+                </video>
+                <p class="col-xs-12 text-center">Assembling robot</p>
+            </div>
+            <div class="col-xs-4">
+                <video class="col-xs-12" height="200" width="400" controls>
+                    <source src="1.mp4" type="video/mp4">
+                    <source src="mov_bbb.ogg" type="video/ogg"> Your browser does not support HTML5 video.
+                </video>
+                <p class="col-xs-12 text-center">Calibrating robot hand</p>
+            </div>
         </div>
-        <div class="col-xs-6"> <!-- About me - photo -->
-          <img class="img-rounded" height="250px" alt="Daulet's face" src="1.jpg">
-        </div>
-      </div>
-      <div class="row" id="now">
-      <!-- my "now" page -->
-        <div class="col-xs-3">
-        </div>
-        <div class="col-xs-6">
-          <p class="lead">What I'm doing now</p>
-          <p style="text-indent: 1.5em">Currently i am in the Almaty working as a software engineer on trading platform and finishing my dissertation for master degree. My time is unequally divided among the following projects:</p>
-			<h2>Self education:</h2>
-			<ul>
-				<li>Learing english, now i have IELTS score 5</li>
-				<li>Learning Android development on Kotlin</li>
-				<li>Learning IOS development on swift</li>
-				<li>Solving problems on HackerRank</li>
-				<li>Preparing to OSJP certification</li>
-            </ul>
-            <h2>My hobby:</h2>
-            <ul>
-              <li>Writing fun programs like worm game on C#</li>
-              <li>Developing fun stufs on micro controllers Arduino Raspbery pi</li>
-              <li>Rearding literature books</li>
-              <li>Motorsycles</li>
-              <li>Fishing</li>
-            </ul>
-            All this helps me to be motivated and keeps me alive.
-          
-        </div>
-        <div class="col-xs-3">
-        </div>
-      </div>
-      <div class="row text-center" id="contact-me">
-        <!-- contact me -->
-<!--         <div class="col-xs-6"> 
-          <img class="img-rounded" src="https://cnet2.cbsistatic.com/img/WbIDMaD6bPQgqHrwITUe5HBx5lo=/756x567/2019/11/19/2eddb56d-56a3-4569-874e-32cd61180d6a/babyyoda2.jpg" alt="Contact Me">
-        </div> -->
-        <div class="col-xs-12"> <!-- contact me text -->
-          <address>
+        <div class="row text-center" id="contact-me">
+            <div class="col-xs-12">
+                <!-- contact me text -->
+                <address>
             <strong class="h1">Seilov Bagdaulet</strong><br>
             <a class="h1" href="mailto:seilov.skynet@gmail.com">seilov.skynet@gmail.com</a><br>
             Feel free to get in touch with me via email. I reply to all emails.<br>
             <!-- I'm on Medium at <a href="https://medium.com/@divm" title="Medium">divm</a><br> -->
           </address>
+            </div>
         </div>
-      </div>
-      <div class="col-xs-12 text-center my-footer">
-        <p>&copy; 2019. Seilov Bagdaulet</p>
-      </div>
+        <div class="col-xs-12 text-center my-footer">
+            <p>&copy; 2019. Seilov Bagdaulet</p>
+        </div>
     </div>
     <!-- supporting javascript -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
